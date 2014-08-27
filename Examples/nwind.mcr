@@ -1,0 +1,24 @@
+C:\biblio.mdb
+xyz
+init|a
+init|b
+init|c
+init|d
+init|e
+init|f
+init|g
+init|x
+asg|x|0
+while|x=0
+input|a|x|b
+input|b|x|b
+input|c|x|b
+input|d|x|b
+input|e|x|b
+input|f|x|b
+input|x|x|b
+sql|insert into emp values(#a#,#b#,#c#,#d#,#e#,#f#,#g#)
+input|x|enter|b
+wend
+show|emp
+break
